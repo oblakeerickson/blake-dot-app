@@ -1,9 +1,63 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap");
+
+
+$backgroundColor: #070814;
+$bodyColor: #e5e5ea;
+$mutedColor: #a1a1b5;
+
+$bodyFont: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 3.5rem 1.5rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  color: $bodyColor;
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: $mutedColor;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+a:hover {
+  text-decoration-color: #b7b7c8;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+li {
+  margin: 0.25rem 0;
 }

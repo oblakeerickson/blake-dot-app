@@ -1,0 +1,15 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler / Ruby
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
