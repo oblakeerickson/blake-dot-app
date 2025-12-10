@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Learning Backbone.js"
+date:   2014-03-04 01:00:00 -0600
+---
+
+Yesterday I spent all morning learning Backbone.js and I thought I would share a few links might be useful for those just starting out with Backbone.js and I also thought they would be good to refer back to at a quick glance if I needed to figure something out.
+
+* [code school - The Anatomy of Backbone.js](https://www.codeschool.com/courses/anatomy-of-backbonejs) - I only did the free video with the 10+ exercises which was enough to get me started. I liked using this method first because I didn't have to worry about downloading anything or trying to start from nothing. This allowed me to start writing Backbone.js code right away.
+* [Beginning Backbone.js](http://www.amazon.com/gp/product/B00EQLDSHQ/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EQLDSHQ&linkCode=as2&tag=wwwbinaryscie-20) - I purchased the Kindle version of this book because I hate waiting for shipping and it's a lot easier to read tech books on my second monitor. I think this book was well worth the $20 bucks and it got me quickly up to speed with how Backbone.js works and I was even able to get the node.js serverside app working that is used in the book to talk to your Backbone.js app. The book was released in December 2013 so as of now when I'm writing this post the book is up to date. A couple of things that I didn't like about the book was it was hard to tell if they code he was talking about was just for my instruction or if I needed to put it into the the sample app that we were building. The other thing that bothered me was it seemed like the indentation was off, I know the Kindle version can mess things up, but it looks like the code that was included with the book on GitHub was also off.
+* [A Basic Rails and Backbone.js Example](http://blog.crowdint.com/2012/08/28/a-basic-rails-and-backbone-js-example.html) I haven't gone through this article all the way, but it looks like it walks you through how to set up a basic Rails application with a Backbone.js frontend. [Here](http://blog.crowdint.com/2012/08/28/a-basic-rails-and-backbone-js-example.html) is a link that a reader posted of the code he used when following this tutorial.
+* [Backbone.js on Rails](https://learn.thoughtbot.com/products/1-backbone-js-on-rails) This looks like the best resource to learning Backbone.js with Rails and is probably well worth the $50.
+* [VIDEO: Backbone.js Tutorial - Beginners](https://www.youtube.com/watch?v=FZSjvWtUxYk) I haven't had time to go through this video yet, but it does come with a [link](https://github.com/thomasdavis/backbonetutorials/blob/gh-pages/videos/beginner/README.md) to the source code on GitHub.
+
+Backbone really is not that complicated to pick up and I like that fact that it is just a javascript library and not a full framework. This means that I can easily add it to an existing code base and start using it right away with new features and slowly update the rest of my legacy code as time permits.
