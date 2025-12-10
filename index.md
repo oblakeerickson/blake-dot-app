@@ -15,7 +15,7 @@ I thrive on solving customer problems as well as improving tools we user every d
 
 Outside of work, I’m a husband, parent, snowboarder, and car nerd. If I’m not at a keyboard, I’m probably tinkering on a Subaru in my garage, or escaping up in the mountains to snowboard somewhere in Idaho.
 
-I recently wrote this post on the Discourse blog: https://blog.discourse.org/2025/11/how-discourse-uses-discourse/
+I recently wrote this post on the Discourse blog: [https://blog.discourse.org/2025/11/how-discourse-uses-discourse/](https://blog.discourse.org/2025/11/how-discourse-uses-discourse/)
 
 Some hobby projects I’m currently building are [Recourss](https://app.recourss.com) (an RSS reader app) and [ofcourse.chat](https://app.ofcourse.chat) (hosted Discourse *just*-chat instances). See what else I'm hacking on by taking a look at my [GitHub](https://github.com/oblakeerickson) profile or follow me on [X](https://x.com/oblakeerickson). If you’d like to get in touch, email me at blake [at] blake [dot] app.
 
