@@ -15,7 +15,9 @@ I thrive on solving customer problems as well as improving the tools we use ever
 
 Outside of work, I’m a husband, parent, snowboarder, and car nerd. If I’m not at a keyboard, I’m probably tinkering on a Subaru in my garage, or escaping up in the mountains to snowboard somewhere in Idaho.
 
-I recently wrote this post on the Discourse blog: [https://blog.discourse.org/2025/11/how-discourse-uses-discourse/](https://blog.discourse.org/2025/11/how-discourse-uses-discourse/). And these are posts I've written on my own [blog](/blog/):
+Last month I wrote about how [Discourse uses Discourse](https://blog.discourse.org/2025/11/how-discourse-uses-discourse/) on the Discourse blog. 
+
+On my own [blog](/blog/) I've written:
 
 - [Prolonged Effort, Hard Work, Coupled with Postive Focus, Thinking About the Thing](/blog/prolonged-effort/)
 - [Bug Crushing Adventure](/blog/bug-crushing-adventure/)
@@ -24,6 +26,6 @@ I recently wrote this post on the Discourse blog: [https://blog.discourse.org/20
 - [Work on Tooling](/blog/work-on-tooling/)
 - [Contributing To Discourse](/blog/contributing-to-discourse/)
 
-Some hobby projects I’m currently building are [Recourss](https://app.recourss.com) (an RSS reader app) and [ofcourse.chat](https://app.ofcourse.chat) (hosted Discourse *just*-chat instances). See what else I'm hacking on by taking a look at my [GitHub](https://github.com/oblakeerickson) profile or follow me on [X](https://x.com/oblakeerickson). If you’d like to get in touch, email me at blake [at] blake [dot] app.
+Some hobby projects I’m currently building are [Recourss](https://app.recourss.com) (an RSS reader app) and [ofcourse.chat](https://app.ofcourse.chat) (hosted Discourse *just*-chat instances). See what else I'm hacking on by taking a look at my [GitHub](https://github.com/oblakeerickson) profile or follow me on [X](https://x.com/oblakeerickson). You can also see what I'm working on [today](https://plan.blake.app). If you’d like to get in touch, email me at blake [at] blake [dot] app.
 
 I'm currently on the lookout for a one-of-a-kind founder led company that I can apply my decades of software engineering obsession into. If that's you and you are hiring, hit me up! 
