@@ -1,3 +1,4 @@
 url: "https://blake.app"
 baseurl: ""
 title: "blake.app"
+permalink: /blog/:title/

@@ -17,7 +17,7 @@ Outside of work, I’m a husband, parent, snowboarder, and car nerd. If I’m no
 
 I recently wrote this post on the Discourse blog: [https://blog.discourse.org/2025/11/how-discourse-uses-discourse/](https://blog.discourse.org/2025/11/how-discourse-uses-discourse/). And these are posts I've written on my own [blog](/blog/):
 
-- [Prolonged Effort, Hard Work, Coupled with Postive Focus, Thinking About the Thing](/blog/prolonged-effort-hard-work-coupled-with-positive-focus-thinking-about-the-thing/)
+- [Prolonged Effort, Hard Work, Coupled with Postive Focus, Thinking About the Thing](/blog/prolonged-effort/)
 - [Bug Crushing Adventure](/blog/bug-crushing-adventure/)
 - [The Best Free Email Service for Hobby Projects](/blog/smtp2go/)
 - [Nobody will Train You but You](/blog/nobody-will-train-you-but-you/)
