@@ -4,7 +4,7 @@ title: "I Finally Got a Split Layout Keyboard"
 date: 2025-10-13 01:00:00 -0600
 ---
 
-![Kinesis mWave](/assets/images/keyboard.png)
+![Kinesis mWave](/assets/img/keyboard.png)
 
 No doubt inspired by [The Primeagen #461 Lex Fridman podcast episode][1], but not wanting to commit hundreds of dollars (just yet) I settled on getting the [mWave for Mac Mechanical Keyboard from Kinesis][2] as it was only $119.95 instead of $300+. 
 

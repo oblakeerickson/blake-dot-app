@@ -2,6 +2,7 @@
 layout: post
 title:  "Contributing To Discourse"
 date:   2014-08-31 01:00:00 -0600
+featured: true
 ---
 
 I've been trying to find a way to contribute to [Discourse](http://www.discourse.org/) and while I would still like to contribute to [discourse/discourse](https://github.com/discourse/discourse) I have found a good opportunity with their [discourse/discourse_api](https://github.com/discourse/discourse_api) gem.

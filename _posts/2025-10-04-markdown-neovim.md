@@ -4,7 +4,7 @@ title: "How To Configure Neovim for Writing in Markdown"
 date: 2025-10-04 01:00:00 -0600
 ---
 
-![tmux terminal with Neovim](/assets/images/markdown-neovim.png)
+![tmux terminal with Neovim](/assets/img/markdown-neovim.png)
 
 Out of the box Neovim doesn't have great markdown support. Of course you can just start typing a markdown file, but navigation with the keyboard is very difficult and there also is no wrapping of text so lines are really long. In this post I'll walk you through some of the changes I have made to make it easier to work with markdown in Neovim.
 

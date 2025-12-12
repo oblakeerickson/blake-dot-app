@@ -2,6 +2,7 @@
 layout: post
 title: "Prolonged Effort"
 date: 2025-10-15 01:00:00 -0600
+featured: true
 ---
 
 From the [Pavel Durov episode][1] of the Lex Fridman podcast:

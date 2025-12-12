@@ -2,6 +2,7 @@
 layout: post
 title: "Bug Crushing Adventure"
 date: 2018-10-31 01:00:00 -0600
+featured: true
 ---
 
 At [Discourse][discourse] we have a new "game" that we play where we have a running bug

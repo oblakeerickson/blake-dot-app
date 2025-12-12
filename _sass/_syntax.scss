@@ -1,0 +1,103 @@
+// Catppuccin Mocha theme for Rouge syntax highlighting
+$ctp-rosewater: #f5e0dc;
+$ctp-flamingo: #f2cdcd;
+$ctp-pink: #f5c2e7;
+$ctp-mauve: #cba6f7;
+$ctp-red: #f38ba8;
+$ctp-maroon: #eba0ac;
+$ctp-peach: #fab387;
+$ctp-yellow: #f9e2af;
+$ctp-green: #a6e3a1;
+$ctp-teal: #94e2d5;
+$ctp-sky: #89dceb;
+$ctp-sapphire: #74c7ec;
+$ctp-blue: #89b4fa;
+$ctp-lavender: #b4befe;
+$ctp-text: #cdd6f4;
+$ctp-subtext1: #bac2de;
+$ctp-subtext0: #a6adc8;
+$ctp-overlay2: #9399b2;
+$ctp-overlay1: #7f849c;
+$ctp-overlay0: #6c7086;
+$ctp-surface2: #585b70;
+$ctp-surface1: #45475a;
+$ctp-surface0: #313244;
+$ctp-base: #1e1e2e;
+$ctp-mantle: #181825;
+$ctp-crust: #11111b;
+
+.highlight {
+  background: $ctp-mantle;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+
+  pre {
+    margin: 0;
+    background: transparent;
+  }
+
+  code {
+    font-family: "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $ctp-text;
+  }
+
+  // Comments
+  .c, .c1, .cm, .cs, .cp, .cpf { color: $ctp-overlay1; font-style: italic; }
+  
+  // Strings
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { color: $ctp-green; }
+  
+  // Numbers
+  .m, .mf, .mh, .mi, .mo, .il { color: $ctp-peach; }
+  
+  // Keywords
+  .k, .kc, .kd, .kn, .kp, .kr, .kv { color: $ctp-mauve; }
+  .kt { color: $ctp-yellow; }
+  
+  // Names/Identifiers
+  .n { color: $ctp-text; }
+  .na { color: $ctp-blue; }
+  .nb { color: $ctp-teal; }
+  .nc { color: $ctp-yellow; }
+  .nd { color: $ctp-blue; }
+  .nf, .fm { color: $ctp-blue; }
+  .ni { color: $ctp-teal; }
+  .nn { color: $ctp-peach; }
+  .no { color: $ctp-peach; }
+  .nv, .vc, .vg, .vi, .vm { color: $ctp-text; }
+  
+  // Operators
+  .o, .ow { color: $ctp-sky; }
+  
+  // Punctuation
+  .p { color: $ctp-overlay2; }
+  
+  // Special
+  .ss { color: $ctp-red; }
+  .bp { color: $ctp-maroon; }
+  .err { color: $ctp-red; }
+  .gd { color: $ctp-red; }
+  .gi { color: $ctp-green; }
+  .gh { color: $ctp-blue; font-weight: bold; }
+  .gu { color: $ctp-blue; font-weight: bold; }
+}
+
+// Inline code
+code {
+  font-family: "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
+  font-size: 1em;
+  background: $ctp-surface0;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  color: $ctp-text;
+}
+
+// Don't double-style code in pre blocks
+pre code {
+  background: transparent;
+  padding: 0;
+}

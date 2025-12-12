@@ -22,12 +22,9 @@ Last month I wrote about how [Discourse uses Discourse](https://blog.discourse.o
 
 On my own [blog](/blog/) I've written:
 
-- [Prolonged Effort, Hard Work, Coupled with Postive Focus, Thinking About the Thing](/blog/prolonged-effort/)
-- [Bug Crushing Adventure](/blog/bug-crushing-adventure/)
-- [The Best Free Email Service for Hobby Projects](/blog/smtp2go/)
-- [Nobody will Train You but You](/blog/nobody-will-train-you-but-you/)
-- [Work on Tooling](/blog/work-on-tooling/)
-- [Contributing To Discourse](/blog/contributing-to-discourse/)
+{% for post in site.posts %}{% if post.featured %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endif %}{% endfor %}
 
 Some hobby projects I’m currently building are [Recourss](https://app.recourss.com) (an RSS reader app), [ofcourse.chat](https://app.ofcourse.chat) (hosted Discourse [*just*-chat](https://github.com/oblakeerickson/discourse-just-chat) instances), and [my.ntbk.co](https://my.ntbk.co) (Take detailed notes, keep track of tasks, create daily checklists, and accomplish more through organized thought!). See what else I'm hacking on by taking a look at my [GitHub](https://github.com/oblakeerickson) profile or follow me on [X](https://x.com/oblakeerickson). You can also see what I'm working on [today](https://plan.blake.app/20251212.html). If you’d like to get in touch, email me at blake [at] blake [dot] app.
 

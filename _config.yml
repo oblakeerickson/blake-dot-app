@@ -8,5 +8,8 @@ description: Blake Erickson's personal blog
 plugins:
   - jekyll-feed
 
+markdown: kramdown
+highlighter: rouge
+
 feed:
   path: /blog/feed.xml
