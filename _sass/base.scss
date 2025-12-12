@@ -121,6 +121,22 @@ li {
 .post-list {
   li {
     position: relative;
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+
+  .post-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+  }
+
+  .post-date {
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    color: $mutedColor;
   }
 
   .star {

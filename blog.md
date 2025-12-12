@@ -10,10 +10,8 @@ permalink: /blog/
   {% for post in site.posts %}
     <li{% if post.featured %} class="featured"{% endif %}>
       {% if post.featured %}<span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#f5c518"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>{% endif %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      {% if post.date %}
-        &mdash; <small>{{ post.date | date: "%B %e, %Y" }}</small>
-      {% endif %}
+      <span class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></span>
+      {% if post.date %}<span class="post-date">&mdash; {{ post.date | date: "%b %e, %Y" }}</span>{% endif %}
     </li>
   {% endfor %}
 </ul>
