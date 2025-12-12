@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prolonged Effort, Hard Work, Coupled with Postive Focus, Thinking About the Thing"
+title: "Prolonged Effort"
 date: 2025-10-15 01:00:00 -0600
 ---
 

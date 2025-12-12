@@ -2,3 +2,11 @@ url: "https://blake.app"
 baseurl: ""
 title: "blake.app"
 permalink: /blog/:title/
+author: Blake Erickson
+description: Blake Erickson's personal blog
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: /blog/feed.xml

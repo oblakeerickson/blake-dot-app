@@ -6,8 +6,10 @@
     <title>blake.app</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
     <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" />
+    {% feed_meta %}
   </head>
   <body>
+    {% include header.html %}
     <main>
       {{ content }}
     </main>
