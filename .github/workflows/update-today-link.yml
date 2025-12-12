@@ -1,0 +1,51 @@
+name: Update Today Link
+
+on:
+  schedule:
+    # 1:00 AM MST = 8:00 AM UTC (MST is UTC-7)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-link:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch RSS and update today link
+        run: |
+          # Fetch the RSS feed and extract the latest item's link
+          LATEST_LINK=$(curl -s https://plan.blake.app/rss.xml | \
+            grep -oP '<link>https://plan\.blake\.app/\d{8}\.html</link>' | \
+            head -1 | \
+            sed 's/<link>//;s/<\/link>//')
+
+          if [ -z "$LATEST_LINK" ]; then
+            echo "Failed to fetch latest link from RSS feed"
+            exit 1
+          fi
+
+          echo "Latest plan link: $LATEST_LINK"
+
+          # Update the today link in index.md
+          sed -i "s|\[today\](https://plan\.blake\.app[^)]*)|[today](${LATEST_LINK})|g" index.md
+
+          # Check if there were any changes
+          if git diff --quiet index.md; then
+            echo "No changes needed - link is already up to date"
+          else
+            echo "Link updated to: $LATEST_LINK"
+            git diff index.md
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          git diff --staged --quiet || git commit -m "Update today link to latest plan"
+          git push
